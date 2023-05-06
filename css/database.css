@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "cuy-font";
+  src: url(../font/BaiJamjuree-Regular.ttf) format(truetype);
+}
+* {
+  font-family: cuy-font;
+}
+.tabel {
+  overflow-x: scroll;
+}
