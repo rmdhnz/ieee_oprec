@@ -18,6 +18,9 @@ form.addEventListener("submit", (e) => {
       btnLoading.classList.toggle("d-none");
       btnKirim.classList.toggle("d-none");
       document.location.href = "#form";
+      setTimeout(() => {
+        myAlert.classList.toggle("d-none");
+      }, 3000);
     })
     .catch((error) => console.error("Error!", error.message));
 });
